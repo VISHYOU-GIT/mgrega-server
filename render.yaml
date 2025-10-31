@@ -5,6 +5,8 @@ services:
     env: node
     region: singapore
     plan: free
+    # Root directory is current folder (server code is at root of this repo)
+    rootDir: .
     buildCommand: npm install
     startCommand: npm start
     envVars:
