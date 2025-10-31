@@ -8,9 +8,9 @@
   "license": "ISC",
   "author": "Vishwanath Singh",
   "type": "commonjs",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
-    "start": "node ./src/index.js",
+    "start": "node src/index.js",
     "dev": "nodemon ./src/index.js",
     "db:migrate": "node ./src/db.js",
     "ingest-sample": "node ./src/ingest.js --file=./sample_data/sample_record.json"
